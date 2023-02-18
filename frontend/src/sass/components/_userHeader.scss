@@ -1,0 +1,36 @@
+.header {
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+.header-edit{
+    display: none;
+    flex-direction: column;
+    row-gap: 0.8rem;
+    label{
+        align-self: center;
+        justify-self: center;
+        input{
+            margin-left: 1rem;
+            width: 6rem;
+            border-radius: 0.3rem;
+            height: 1.2rem;
+        }
+        #firstName, #lastName{
+            color: grey;
+            background-color: lightgrey;
+        }
+    }
+    &-buttons{
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+        width: 13rem;
+        button{
+            border-color: #00bc77;
+            background-color: #00bc77;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1.5rem;
+            color: white;
+        }
+    }
+}
