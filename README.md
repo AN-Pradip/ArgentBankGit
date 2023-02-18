@@ -5,8 +5,8 @@ Project 11 OpenClassroom
 
 Open terminal
 ```bash
-# Go to frontend direcotry
-cd frontend
+# Go to backend direcotry
+cd backend
 
 # Install dependencies
 npm install
