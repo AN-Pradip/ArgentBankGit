@@ -28,6 +28,6 @@ cd frontend
 # Install dependencies
 npm install
 
-# Start local dev server
+# Start app
 npm start
 ```
