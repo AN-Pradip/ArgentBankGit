@@ -1,7 +1,7 @@
 # ArgentBankGit
 Project 11 OpenClassroom
 
-#Pre-requisite
+# Pre-requisite
 Argent Bank uses the following tech stack:
 
 - [Node.js v12](https://nodejs.org/en/)
