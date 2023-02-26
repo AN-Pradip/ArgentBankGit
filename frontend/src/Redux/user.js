@@ -27,26 +27,10 @@ export const user = createSlice({
       logged: action.payload.logged,
       username: action.payload.username,
     }),
-    getToken: (state, action) => {
-      return {
-        ...state,
-        eMail: action.payload.email,
-        token: `${action.payload.token}`,
-      };
-    },
     setUsername: (state, action) =>({
       ...state,
       username: action.payload.username,
     }),
-    getNamesofUser: (state, action) => {
-      return {
-        ...state,
-        lastName: action.payload.lastName,
-        firstName: action.payload.firstName,
-        username: action.payload.username,
-      };
-    },
-
     logOut: () => initialState,
 
     
